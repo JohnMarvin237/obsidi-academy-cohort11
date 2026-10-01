@@ -17,7 +17,7 @@ public class NegNumbers {
         } else if(number < 0) {
           result= "negative";
         } else {
-          result="equl to zero";
+          result="equal to zero";
         }
 
         System.out.println("The number is " + result);
