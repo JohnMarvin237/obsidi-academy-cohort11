@@ -58,6 +58,7 @@ public class PalindromeChecker {
 //	       // Fill in the code below to reverse the input string and store it in the reverseInput variable
 //	       for ( int i = input.length()-1; i>=0; i--){
 //	     reverseInput = reverseInput + input.charAt(i); 
+	      scanner.close();
 
 	}
 

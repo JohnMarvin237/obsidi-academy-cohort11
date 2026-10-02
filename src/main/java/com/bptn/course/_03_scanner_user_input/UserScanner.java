@@ -16,6 +16,8 @@ public class UserScanner {
 		// FREEZE CODE BEGIN        
 		        // Print the username   
 		        System.out.println("Username is: " + userName);
+		        
+		        myObj.close();
 
 	}
 

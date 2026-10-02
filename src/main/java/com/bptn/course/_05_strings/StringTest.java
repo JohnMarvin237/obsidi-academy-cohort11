@@ -1,5 +1,8 @@
 package com.bptn.course._05_strings;
 
+//import java.lang.String;
+//import java.lang.Object;
+
 public class StringTest {
 
 	public static void main(String[] args) {

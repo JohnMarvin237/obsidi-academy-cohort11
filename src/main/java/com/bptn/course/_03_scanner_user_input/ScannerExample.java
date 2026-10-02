@@ -15,6 +15,7 @@ public class ScannerExample {
 		name = scanner.nextLine();
 		
 		System.out.println("You entered: " + name);
+		scanner.close();
 	}
 
 }
