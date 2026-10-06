@@ -1,4 +1,4 @@
-package com.bptn.course_oop_concept;
+package com.bptn._06_oop_concept;
 
 import java.util.Scanner;
 
