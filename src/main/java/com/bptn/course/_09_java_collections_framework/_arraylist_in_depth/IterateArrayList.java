@@ -3,7 +3,7 @@ package com.bptn.course._09_java_collections_framework._arraylist_in_depth;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main {
+public class IterateArrayList {
 
     public static void main(String[] args) {
 
@@ -21,8 +21,15 @@ public class Main {
         List<Student> passList = new ArrayList<Student> ();
 
         // Loop through studentlist to filter the students with target grade
+        for (Student student: studentList) {
+        	if(student.getClassGrade() >= 75) {
+        		passList.add(student);
+        	}
+        }
 
-
-        // print out the students using a for-each loop.      
+        // print out the students using a for-each loop. 
+        for(Student student: passList) {
+        	System.out.println(student);
+        }
     }
 }
