@@ -5,9 +5,9 @@ import java.util.*;
 public class HashMapDemo {
 	public static void main(String[] args) {
 		Map<String, Integer> people = new HashMap<>();
-		people.put("Angie", 33);
+		people.put("Jonathan", 33);
 		people.put("Steve", 30);
-		people.put("John", 32);
+		people.put("John_MArvin", 32);
 		
 		for(Map.Entry<String, Integer> entry : people.entrySet()) {
 			System.out.println("Name: " + entry.getKey() + ", Age: " + entry.getValue());
